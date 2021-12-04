@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./stylemedia.css">
     <title>Codex</title>
 </head>
 <body>
+    <header>
+        <h1> My Decoder</h1>
+    </header>
+    <main>
+        <div class="principal">
+            <form>
+                <div class="texto">
+                    <label for="mensagem"> Insira o texto a ser codificado</label>
+                    <input type="text" id="mensagem">
+                </div>
+                <div class="codigo">
+                    <select>
+                        <option>Cifra de Cesar</option>
+                        <option>Base64</option>
+                    </select>
+                </div>
+                <div class="opcaocodigo">
+                    <label for="codificar"><input type="radio" name="escolha" id="codificar">Codificar</label>
+                    <label for="decodificar"><input type="radio" name="escolha" id="decodificar"> Decodificar</label>            
+                </div>
+                <button>Code/Deco. Start</button>
+                <div class="mensagemdecodificada">
+                    <textarea cols="30" rows="5"></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p> Todos os direitos Reservados &#169;</p>
+    </footer>
+   
     <script src="./script.js"></script>
 </body>
 </html>
