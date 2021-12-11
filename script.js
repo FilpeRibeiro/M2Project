@@ -13,6 +13,7 @@
     var btn = document.querySelector('.codifica')
     btn.addEventListener('click', function (e) {
         e.preventDefault()
+
         if(select.value =="cesar"){
             
                 var incremento = document.getElementById("chave").value;
@@ -59,3 +60,15 @@
     }
     })
     
+
+
+    // var btn = document.querySelector('.codifica')
+    // var radio =document.querySelector('.opcaocodigo')
+    // radio.addEventListener('change', ()=>{
+    //     if(radio.value == "codificar" ){
+    //     btn.innerText = "Codificar"
+    //     }else{
+    //         btn.innerText = "Decodificar";
+    //     }
+
+    //     })
